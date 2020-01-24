@@ -15,7 +15,7 @@ Finally, don't forget to write comments in your code. I will gladly give you par
 
 
 ### Introduction
-In the `src` directory, you will see a file called `Team.java`. **You will be modifying this file so look at it as you read this description.** This is a class that contains information (variables) and behaviors (methods) associated with a team that plays some sport. `Team` has the following instance variables:
+In the `src` directory, you will see a file called `Team.java`. **You will be modifying this file so look at it as you read this description.** This is a class that contains information (variables) and behaviors (methods) associated with a team that plays some sport. `Team` has two methods: a constructor and a method called `play()`. `Team` has the following instance variables:
 
 ```java
 String city;
@@ -36,11 +36,11 @@ Here are your tasks:
 
 3. Write an instance method called `play()`. The method will be called by an instance of the class and it will take as an argument a different instance of the class. Its return type will be `boolean`. I have provided some of the code for you, along with some comments.
 
-    To simulate one team playing another, you will use `Math.random()` to generate a random number between 0 and 100 for each team. That number will represent the number of points that team scored. You will then compare those two numbers, and the team with the larger number will be the winner of that game.  
+    To simulate one team playing another, you will use `Math.random()` to generate a random number between 0 and 100 for each team. That number will represent the number of points that team scored. You will then compare those two numbers, and the team with the larger number of points will be the winner of that game.  
   
     The method will do the following after deciding the winner: (1) Using the setters, increment the winning team's `wins` variable by 1 and increment the losing team's `losses` variable by 1. (2) Using the setters, increment each team's `total_points` variable by the number of points they scored in the game. (3) Finally, return true if the calling `Team` won and return false if the argument `Team` won.
 
-4. Write a `main()` method that tests your code as follows. Again, some of the code you need is in the `Team.java` file:
+4. Write a `main()` method that tests your code as follows. Again, some of the code you need is already written for you in the `Team.java` file:
 
   * Read in the first command-line argument as an integer representing how many game should be played.
   * Make sure that it is less than the static variable `MAX_GAMES`. If it is more than `MAX_GAMES`, you will end the program by throwing this exception:
@@ -50,7 +50,7 @@ Here are your tasks:
   * Create an empty ArrayList of String objects. This will store the winner of each game in a series.
   * Create a Team object with whatever city and mascot you wish.
   * Create a second Team object with whatever city and mascot you wish.
-  * Play the specified number od games between the two teams. (Hint: use `play()` and a `for` loop!) After each game, add the name of the winner (i.e., the city + mascot) to the ArrayList of winning teams.
+  * Play the specified number of games between the two teams. (Hint: use `play()` and a `for` loop!) After each game, add the name of the winner (i.e., the city + mascot) to the ArrayList of winning teams.
   * After the desired number of games, use the ArrayList to print out the name of the winning team for each game.
   * Using the `wins` and `losses` instance variables, print out the record of wins and losses for each team.
   * Print out which team won the whole series.

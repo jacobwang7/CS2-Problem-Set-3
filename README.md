@@ -7,9 +7,9 @@ This problem set will give you the opportunity to pratice your Java syntax while
 ### Reminders
 If your code does not compile, you will get a 0. Don't submit code that doesn't compile! One way to avoid ending up with a program that you can't get to compile is to re-compile often. Every time you write a few lines that ought to compile, re-compile. 
 
-For instance, in this program you'll start by writing a construtor. Write it (about 4 lines), then compile. Keep fixing it until it compiles. Then try it out in the `main()` method by creating a `Team` object. Work on it until it compiles. Then move onto the next task, ensuring each time that it compiles before proceeding to the following task.
+For instance, in this program you'll start by writing a construtor. Write it (about 7 lines of code), then compile. Keep fixing it until it compiles. Then try it out in the `main()` method by creating a `Team` object. Work on it until it compiles. Then move onto the next task, ensuring each time that it compiles before proceeding to the following task.
 
-You can push your changes to GitHub whenever you like. It is sometimes useful to use GitHub as a back-up. If your computer breaks or gets lost, you'll be very happy that you stored your partially completed code on GitHub.
+You can push your changes to GitHub whenever you like. It is useful to use GitHub as a back-up. If your computer breaks or gets lost, you'll be very happy that you stored your partially completed code on GitHub.
 
 Finally, don't forget to write comments in your code. I will gladly give you partial credit for code that doesn't do exactly what it's supposed to do if you write comments explaining what you did and why.
 

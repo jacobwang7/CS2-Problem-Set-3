@@ -5,7 +5,7 @@ This problem set will give you the opportunity to pratice your Java syntax while
 
 ---
 ### Reminders
-If your code does not compile, you will get a 0. Don't submit code that doesn't compile! One way to avoid ending up a program that you can't get to compile is to re-compile often. Every time you write a few lines that ought to compile, re-compile. 
+If your code does not compile, you will get a 0. Don't submit code that doesn't compile! One way to avoid ending up with a program that you can't get to compile is to re-compile often. Every time you write a few lines that ought to compile, re-compile. 
 
 For instance, in this program you'll start by writing a construtor. Write it (about 4 lines), then compile. Keep fixing it until it compiles. Then try it out in the `main()` method by creating a `Team` object. Work on it until it compiles. Then move onto the next task, ensuring each time that it compiles before proceeding to the following task.
 
